@@ -18,7 +18,7 @@ public class Ntest extends StartUp {
 		//bings.navigate().to(prop.getProperty("URL"));
 
 		news ne = new news(bings);
-		//ne.dropmenue().click();
+		ne.dropmenue().click();
 		ne.clickmenue().click();
 	}
 
